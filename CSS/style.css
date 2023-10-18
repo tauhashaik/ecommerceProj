@@ -1,0 +1,250 @@
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    color: rgb(251, 247, 5);
+    font-size: larger;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: larger;
+    font-weight: 800;
+}
+
+nav a:hover{
+    background-color: blue;
+    text-decoration: underline;
+    color: yellow;
+}
+.div {
+    justify-content: center;
+    display: flex;
+    width: 100;
+}
+ 
+a{
+    padding: 5px;
+}
+#homeBody{
+    background-image: url(/Images/background\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+#productBody{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+}
+#aboutbody{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+#contactBody{
+    background-image: url(/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+#checkoutbody{
+    background-color: black;
+}
+.Heading *{
+    color: red;
+}
+
+#img{
+    height: 400px;
+    width: 400px;
+    padding: 5px;
+    border: solid 2px yellow;
+}
+
+h2{
+    color: yellow;
+    font-family: Sofia;
+}
+
+#h1 {
+    font-family: Sofia;
+}
+
+p{
+    font-size: larger;
+    border: 2px solid yellow;
+    padding: 10px;
+    color: yellow;
+}
+
+footer{
+ text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    grid-template-areas: 
+    "Square1 Square2 Square3"
+    "Square4 Square5 Square6"
+    "Square7 Square8 Square9";
+}
+
+#sec1{
+    grid-area: Square1;
+    padding: 10px;
+}
+#sec2{
+    grid-area: Square2;
+    padding: 10px;
+}
+#sec3{
+    grid-area: Square3;
+    padding: 10px;
+}
+#sec4{
+    grid-area: Square4;
+    padding: 10px;
+}
+#sec5{
+    grid-area: Square5;
+    padding: 10px;
+}
+#sec6{
+    grid-area:Square6;
+    padding: 10px;
+}
+
+#butt{
+    color: yellow;
+    border-style: none;
+    text-decoration: none;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: black;
+    
+}
+#butt:hover{
+    text-decoration: underline;
+}
+
+#logo{
+    width: 350px;
+    height: 150px;
+    float: right;
+}
+
+#copy{
+    float: right;
+    border: none;
+}
+
+@keyframes RunBoi {
+    0%{
+     transform: translateX(1200px);
+    }
+    
+    100%{
+        transform: translateX(1200px);
+        transform: scaleX(1);
+    }
+}
+
+#Pika {
+  animation-name: RunBoi;
+  animation-duration: 5s; /* Change this value to adjust the speed */
+  position: relative;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: yellow;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    color: black;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: black;
+    color: yellow;
+    padding: 10px 15px;
+    border: solid yellow;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: cadetblue;
+  }
+
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+button[type="submit"] {
+    padding: 10px 15px;
+    background-color: yellow;
+    border: solid yellow;
+    border-radius: 0 5px 5px 0;
+    color: yellow;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: cadetblue;
+}
+
+#table{
+    border: solid yellow 2px;
+    padding: 25px;
+}
+
+.table{
+    border-color: yellow;
+    color: yellow;
+    background-color: black;
+    padding: 10px;
+}
+.total{
+    background-color: black;
+    color: yellow;
+    padding-top: 10px;
+}
+
+.checkout{
+    background-color: black;
+    color: yellow;
+    border-color: yellow;
+}
+#pikabody {
+    background-color: black;
+}
