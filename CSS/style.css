@@ -249,102 +249,202 @@ button[type="submit"]:hover {
     background-color: black;
 }
 
-@media screen and (max-width :375px) {
+@media screen and (max-width :300px) {
     
     #img{
         height: 667px;
-        width: 375px;}
+        width: 300px;}
 
     button[type="submit"] {
             height: 667px;
-            width: 375px;}
+            width: 300px;}
 
     .table{
         height: 667px;
-        width: 375;
+        width: 300;
     }
     
     .search-container{
         height: 667px;
-        width: 375;
+        width: 300;
     }
 
     #logo{
         height: 667px;
-        width: 375;
+        width: 300;
     }
 
     #copy{
         height: 667px;
-        width: 375;
+        width: 300;
     }
 
     #sec1{
         height: 667px;
-        width: 375;
+        width: 300;
     }
     #sec2{
         height: 667px;
-        width: 375;
+        width: 300;
     }
     #sec3{
         height: 667px;
-        width: 375;
+        width: 300;
     }
     #sec4{
         height: 667px;
-        width: 375;
+        width: 300;
     }
     #sec5{
         height: 667px;
-        width: 375;
+        width: 300;
     }
     #sec6{
         height: 667px;
-        width: 375;
+        width: 300;
     }
 
     input{
         height: 667px;
-        width: 375;
+        width: 300;
     }
 
     footer{
         height: 667px;
-        width: 375;
+        width: 300;
     }
 
     p{
         height: 667px;
-        width: 375;
+        width: 300;
     }
     #h1{
         height: 667px;
-        width: 375;
+        width: 300;
     }
 
     h2{
         height: 667px;
-        width: 375;
+        width: 300;
     }
 
     .Heading{
         height: 667px;
-        width: 375;
+        width: 300;
     }
 
     nav a{
         height: 667px;
-        width: 375;
+        width: 300;
     }
 
     a{
         height: 667px;
-        width: 375;
+        width: 300;
     }
 
     form {
         height: 667px;
-        width: 375;
+        width: 300;
+    }
+}
+
+@media screen and (max-width :700px) {
+    
+    #img{
+        height: 667px;
+        width: 700px;}
+
+    button[type="submit"] {
+            height: 667px;
+            width: 700px;}
+
+    .table{
+        height: 667px;
+        width: 700;
+    }
+    
+    .search-container{
+        height: 667px;
+        width: 700;
+    }
+
+    #logo{
+        height: 667px;
+        width: 700;
+    }
+
+    #copy{
+        height: 667px;
+        width: 700;
+    }
+
+    #sec1{
+        height: 667px;
+        width: 700;
+    }
+    #sec2{
+        height: 667px;
+        width: 700;
+    }
+    #sec3{
+        height: 667px;
+        width: 700;
+    }
+    #sec4{
+        height: 667px;
+        width: 700;
+    }
+    #sec5{
+        height: 667px;
+        width: 700;
+    }
+    #sec6{
+        height: 667px;
+        width: 700;
+    }
+
+    input{
+        height: 667px;
+        width: 700;
+    }
+
+    footer{
+        height: 667px;
+        width: 700;
+    }
+
+    p{
+        height: 667px;
+        width: 700;
+    }
+    #h1{
+        height: 667px;
+        width: 700;
+    }
+
+    h2{
+        height: 667px;
+        width: 700;
+    }
+
+    .Heading{
+        height: 667px;
+        width: 700;
+    }
+
+    nav a{
+        height: 667px;
+        width: 700;
+    }
+
+    a{
+        height: 667px;
+        width: 700;
+    }
+
+    form {
+        height: 667px;
+        width: 700;
     }
 }
