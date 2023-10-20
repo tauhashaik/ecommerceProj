@@ -248,3 +248,103 @@ button[type="submit"]:hover {
 #pikabody {
     background-color: black;
 }
+
+@media screen and (max-width :375px) {
+    
+    #img{
+        height: 667px;
+        width: 375px;}
+
+    button[type="submit"] {
+            height: 667px;
+            width: 375px;}
+
+    .table{
+        height: 667px;
+        width: 375;
+    }
+    
+    .search-container{
+        height: 667px;
+        width: 375;
+    }
+
+    #logo{
+        height: 667px;
+        width: 375;
+    }
+
+    #copy{
+        height: 667px;
+        width: 375;
+    }
+
+    #sec1{
+        height: 667px;
+        width: 375;
+    }
+    #sec2{
+        height: 667px;
+        width: 375;
+    }
+    #sec3{
+        height: 667px;
+        width: 375;
+    }
+    #sec4{
+        height: 667px;
+        width: 375;
+    }
+    #sec5{
+        height: 667px;
+        width: 375;
+    }
+    #sec6{
+        height: 667px;
+        width: 375;
+    }
+
+    input{
+        height: 667px;
+        width: 375;
+    }
+
+    footer{
+        height: 667px;
+        width: 375;
+    }
+
+    p{
+        height: 667px;
+        width: 375;
+    }
+    #h1{
+        height: 667px;
+        width: 375;
+    }
+
+    h2{
+        height: 667px;
+        width: 375;
+    }
+
+    .Heading{
+        height: 667px;
+        width: 375;
+    }
+
+    nav a{
+        height: 667px;
+        width: 375;
+    }
+
+    a{
+        height: 667px;
+        width: 375;
+    }
+
+    form {
+        height: 667px;
+        width: 375;
+    }
+}
