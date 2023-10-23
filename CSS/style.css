@@ -249,7 +249,7 @@ button[type="submit"]:hover {
     background-color: black;
 }
 
-@media screen and (max-width :300px){
+@media screen and (min-width :300px){
     nav a{
         max-width: 300px;
         font-size: 16px;
@@ -273,5 +273,39 @@ button[type="submit"]:hover {
     }
     #Pika{
         max-width: 30%;
+    }
+    #homeBody{
+        background-image: url(/Images/background\ 3.jpg);
+    }
+}
+
+@media screen and (min-width :720px){
+    #homeBody{
+        background-image: url(/Images/background\ 3.jpg)
+    }
+    nav a{
+        font-size: 25px;
+    }
+    #logo{
+        margin-top: 500px;
+    }
+    #mainLogo{
+        max-width: 1200px;
+    }
+    img{
+        max-width: 300px;
+        max-height: 300px;
+    }
+    p{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width :1080px){
+    nav a{
+        font-size: 50px;
+    }
+    #logo{
+        margin-top: 650px;
     }
 }
